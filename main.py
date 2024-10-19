@@ -7,7 +7,7 @@ from collections.abc import Generator
 pygame.init()
 
 screen: pygame.Surface = pygame.display.set_mode(SCREEN_SIZE)
-pygame.display.set_caption('Algorytmy sortowania!')
+pygame.display.set_caption('Sorting algorithms!')
 
 clock: pygame.time.Clock = pygame.time.Clock()
 
